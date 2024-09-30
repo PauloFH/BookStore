@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "livraria"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Holanda <paulorfholanda@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+gunicorn = "^23.0.0"
+whitenoise = "^6.7.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
